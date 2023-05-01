@@ -1,0 +1,89 @@
+{
+  "workbench.colorTheme": "GitHub Dark Dimmed",
+  "tabnine.experimentalAutoImports": true,
+  "workbench.iconTheme": "symbols",
+  "workbench.activityBar.visible": true,
+  "workbench.statusBar.visible": true,
+  "editor.codeActionsOnSave": {
+      "source.fixAll": true
+  },
+  
+  "editor.fontSize": 15,
+  "editor.fontFamily": "Fira Code Regular",
+  "editor.lineHeight": 26,
+  "editor.suggestSelection": "first",
+  "explorer.confirmDelete": false,
+  "workbench.editor.labelFormat": "short",
+  "editor.fontLigatures": true,
+  "editor.parameterHints.enabled": false,
+  "editor.renderLineHighlight": "gutter",
+  
+  "editor.accessibilitySupport": "off",
+  "explorer.confirmDragAndDrop": false,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "monospace",
+  "editor.semanticHighlighting.enabled": false,
+  "editor.minimap.enabled": false,
+  "update.mode": "start",
+  "terminal.integrated.gpuAcceleration": "off",
+  "terminal.integrated.defaultProfile.osx": "fish",
+  "[jsonc]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "workbench.editor.untitled.hint": "hidden",
+  "files.autoSave": "afterDelay",
+  "editor.tabSize": 2,
+  "editor.cursorStyle": "line",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "terminal.integrated.profiles.windows": {
+      "PowerShell": {
+          "source": "PowerShell",
+          "icon": "terminal-powershell"
+      },
+      "Command Prompt": {
+          "path": [
+              "${env:windir}\\Sysnative\\cmd.exe",
+              "${env:windir}\\System32\\cmd.exe"
+          ],
+          "args": [],
+          "icon": "terminal-cmd"
+      },
+      "Git Bash": {
+          "source": "Git Bash"
+      },
+      "Ubuntu (WSL)": {
+          "path": "C:\\WINDOWS\\System32\\wsl.exe",
+          "args": [
+              "-d",
+              "Ubuntu"
+          ]
+      }
+  },
+  "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+  "workbench.startupEditor": "none",
+  "editor.renderWhitespace": "none",
+  "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+  },
+  "terminal.integrated.env.linux": {},
+  "workbench.productIconTheme": "fluent-icons",
+  "editor.cursorBlinking": "expand",
+  "editor.linkedEditing": true,
+  "editor.guides.bracketPairs": true,
+  "breadcrumbs.enabled": false,
+  "editor.stickyScroll.enabled": true,
+  "window.menuBarVisibility": "toggle",
+  "workbench.layoutControl.enabled": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "errorLens.excludeBySource": [
+      "eslint(no-undef)",
+      "eslint(quotes)"
+  ],
+  "window.zoomLevel": 2,
+  "rapidapi.terminalLink.enabled": false,
+  "totalTypeScript.hideAllTips": false,
+  "totalTypeScript.hideBasicTips": false,
+  "[python]": {
+      "editor.formatOnType": true
+  }
+}
